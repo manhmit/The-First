@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ html{
+    font-family: 'Sigmar One', cursive;
+ }
+
+.container{
+    background-color: rgb(236, 240, 241);
+    padding: 0 100px;
+    height: 1050px;
+}
+
+.content{
+    width: 75%;
+    float: left;
+}
+
+.form{
+    width: 25%;
+    float: left;
+}
+
+h1,h2{
+    color: rgb(44, 62, 80);
+    font-size: 35px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    color: rgb(52, 73, 94);
+    font-size: 15px;
+}
+
+ input{
+    margin: 5px;
+ }
+
+ textarea{
+     margin-top: 5px;
+     margin-left: 5px;
+ }
+
+ .date, .hi{
+     font-size: 15px;
+ }
+
+ .avatar_image{
+    width: 200px;
+    border-radius:50%;
+ }
+
+ .avatar{
+    display: grid;
+    grid-template-columns: auto 250px;
+ }
